@@ -2,11 +2,15 @@
 <modification>
     <name>[OCN] Menu Switch</name>
     <code>ocn__menu_switch</code>
-    <version>3.0.0.0</version>
+    <version>3.0.0.1</version>
     <author>Hkr</author>
     <link>https://forum.opencart.name/resources/58/</link>
     <date>16.08.2020</date>
     <file path="admin/view/template/common/header.twig">
+        <operation>
+          <search><![CDATA[</head>]]></search>
+          <add position="before"><![CDATA[<style>#column-left + #content,#column-left + #content + #footer{position:relative;left:0}#column-left.active{left:0}#column-left.active + #content,#column-left.active + #content + #footer{left:235px}@media (min-width: 768px){#button-menu{display:inline-block}#column-left{left:-235px}#column-left + #content,#column-left + #content + #footer{left:0;margin-left:auto}#column-left.active + #content,#column-left.active + #content + #footer{left:0;margin-left:235px}}</style>]]></add>
+        </operation>
         <operation>
           <search><![CDATA[<a href="#" id="button-menu" class="hidden-md hidden-lg"><span class="fa fa-bars"></span></a>{% if logged %}]]></search>
           <add position="replace"><![CDATA[
