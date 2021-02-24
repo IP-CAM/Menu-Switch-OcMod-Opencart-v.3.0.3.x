@@ -1,11 +1,12 @@
 # Menu Switch
-Модификация позволяет скрывать меню в админке.
+Modification allows you to hide the menu in the admin.
 
-## Описание
-Скрытие меню в панели управления с сохранением состояния меню после обновления страницы.
+## Description
+Hiding the menu in the control panel while saving the menu status after updating the page.
 
-### Совместимость
-- OpenCart 3.0.3.x
+### compatibility
+- OpenCart 3.0.3.x.
 
-## Ссылки
-- [Ресурс на форуме](https://forum.opencart.name/resources/58/)
+## Links
+- [resource on the forum] (https://forum.opencart.name/resources/58/)
+- 
