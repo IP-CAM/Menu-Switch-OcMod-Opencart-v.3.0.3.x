@@ -9,4 +9,3 @@ Hiding the menu in the control panel while saving the menu status after updating
 
 ## Links
 - [resource on the forum] (https://forum.opencart.name/resources/58/)
-- 
